@@ -11,9 +11,6 @@ https://github.com/user-attachments/assets/b5e6a3e0-8a41-4867-a10a-81bddd58ad2f
 
 
 
-https://github.com/user-attachments/assets/b5e6a3e0-8a41-4867-a10a-81bddd58ad2f
-
-
 
 ## Spuštění projektu
 
