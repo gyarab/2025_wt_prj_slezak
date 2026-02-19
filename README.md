@@ -7,9 +7,7 @@ Tento Django projekt slouží jako databáze výtvorů, studentů a učitelů um
 - Přehledné uživatelské rozhraní pro zobrazování dat
 
 
-https://github.com/user-attachments/assets/b5e6a3e0-8a41-4867-a10a-81bddd58ad2f
-
-
+https://github.com/user-attachments/assets/673f5096-9b46-414c-a77c-6eda8f002bbd
 
 
 ## Spuštění projektu
