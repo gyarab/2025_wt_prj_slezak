@@ -1,1 +1,1 @@
-![Schlemmer GIF](https://tenor.com/view/ok-and-schlemmer-bauhaus-ballet-gif-26482144)
+![Ok And Schlemmer GIF](https://media.tenor.com/9bYszW0gZ8QAAAAC/ok-and-schlemmer-bauhaus-ballet.gif)
