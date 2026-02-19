@@ -6,7 +6,13 @@ Tento Django projekt slouží jako databáze výtvorů, studentů a učitelů um
 - Správa databáze pomocí Django adminu
 - Přehledné uživatelské rozhraní pro zobrazování dat
 
-![Ok And Schlemmer GIF](https://media.tenor.com/9bYszW0gZ8QAAAAC/ok-and-schlemmer-bauhaus-ballet.gif)
+
+https://github.com/user-attachments/assets/b5e6a3e0-8a41-4867-a10a-81bddd58ad2f
+
+
+
+https://github.com/user-attachments/assets/b5e6a3e0-8a41-4867-a10a-81bddd58ad2f
+
 
 
 ## Spuštění projektu
