@@ -17,7 +17,8 @@ Projekt tak vytváří místo, kde je možné jednoduše vyhledávat informace o
 ## Wireframe
 
 <img width="1587" height="2245" alt="www webp comwireframe" src="https://github.com/user-attachments/assets/6e7a0ad4-9820-4532-90a1-32dc3e0ca9ab" />
-![IMG_1020](https://github.com/user-attachments/assets/9fc0c96c-7eca-4c46-836d-adbc9726e963)
+
+![IMG_1020](https://github.com/user-attachments/assets/5856519b-4a88-4fc5-901f-89fef5d65e92)
 
 ## User flow
 
