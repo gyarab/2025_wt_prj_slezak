@@ -13,10 +13,10 @@ Aplikace pracuje s několika typy uživatelů. _Anonymní návštěvník_ může
 Speciální roli má _administrátor_. Ten spravuje obsah celé databáze pomocí administračního rozhraní, které poskytuje _Django_. Administrátor může přidávat nová _díla_, upravovat údaje o _autorech_ nebo odstraňovat nesprávná _data_. Díky tomu zůstává databáze aktuální a přehledná.
 
 Projekt tak vytváří místo, kde je možné jednoduše vyhledávat informace o tvorbě školy _Bauhaus_, jejích _studentech_, _učitelích_ a jejich uměleckých _dílech_.
-![IMG_1020](https://github.com/user-attachments/assets/9fc0c96c-7eca-4c46-836d-adbc9726e963)
 
 ##Wireframe
 <img width="1587" height="2245" alt="www webp comwireframe" src="https://github.com/user-attachments/assets/6e7a0ad4-9820-4532-90a1-32dc3e0ca9ab" />
+![IMG_1020](https://github.com/user-attachments/assets/9fc0c96c-7eca-4c46-836d-adbc9726e963)
 
 ## User flow
 ![IMG_1021](https://github.com/user-attachments/assets/3ab35ee6-287c-4830-b066-5f9d0ebd6c68)
