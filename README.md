@@ -24,6 +24,10 @@ Projekt tak vytváří místo, kde je možné jednoduše vyhledávat informace o
 
 ![IMG_1021](https://github.com/user-attachments/assets/3ab35ee6-287c-4830-b066-5f9d0ebd6c68)
 
+## E-R Graph
+
+![IMG_1034](https://github.com/user-attachments/assets/5cffe15c-3b18-4b33-a335-007354a3e87c)
+
 ## Funkce
 - Evidence děl, studentů a učitelů Bauhausu
 - Správa databáze pomocí Django adminu
