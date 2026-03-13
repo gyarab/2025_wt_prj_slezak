@@ -47,3 +47,7 @@ python -m venv venv
 venv\Scripts\activate
 # Linux/Mac
 source venv/bin/activate
+```
+```bash
+./manage.py runserver
+```
