@@ -41,12 +41,24 @@ https://github.com/user-attachments/assets/673f5096-9b46-414c-a77c-6eda8f002bbd
 
 ### Vytvoření a aktivace virtuálního prostředí
 ```bash
-python -m venv venv
-# Aktivace
+# Linux
+python3 -m venv venv
+
 # Windows
-venv\Scripts\activate
-# Linux/Mac
-source venv/bin/activate
+py -3 -m venv venv
+```
+
+Dále je třeba venv aktivovat:
+
+```bash
+# [Linux]
+source ./venv/bin/activate
+
+# Windows - Bash
+source ./venv/Scripts/activate
+
+# Windows - Power shell
+...
 ```
 ```bash
 ./manage.py runserver
