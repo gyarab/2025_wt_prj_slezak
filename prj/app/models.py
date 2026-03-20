@@ -11,6 +11,8 @@ class Person(models.Model):
 class Artwork(models.Model):
     #id
     name = models.CharField(max_length=255)
+    material = models.CharField(max_length=255)
+    creator = models.ForeignKey('Person', on_delete=models.SET_NULL, null=True)
 
 
 class Gallery(models.Model):
