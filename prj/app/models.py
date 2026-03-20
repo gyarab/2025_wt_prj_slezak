@@ -8,6 +8,15 @@ class Person(models.Model):
     job = models.ForeignKey('Job', on_delete=models.SET_NULL, null=True)
     teacher_workshop = models.ForeignKey('Workshop', on_delete=models.SET_NULL, null=True)
 
+class Artwork(models.Model):
+    #id
+    name = models.CharField(max_length=255)
+
+
+class Gallery(models.Model):
+    #id
+    name = models.CharField(max_length=255)
+
 class Job(models.Model):
     #id
     name = models.CharField(max_length=255)
