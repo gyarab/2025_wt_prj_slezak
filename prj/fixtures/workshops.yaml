@@ -1,1 +1,14 @@
-[{"model": "app.workshop", "pk": 1, "fields": {"name": "Placeholder"}}]
+- model: app.workshop
+  pk: 1
+  fields:
+    name: "Metal Workshop"
+
+- model: app.workshop
+  pk: 2
+  fields:
+    name: "Weaving Workshop"
+
+- model: app.workshop
+  pk: 3
+  fields:
+    name: "Carpentry Workshop"

@@ -1,1 +1,20 @@
-[
+- model: app.artwork
+  pk: 1
+  fields:
+    name: "Wassily Chair"
+    material: "Steel and leather"
+    creator: 3
+
+- model: app.artwork
+  pk: 2
+  fields:
+    name: "Ad Parnassum"
+    material: "Oil on canvas"
+    creator: 2
+
+- model: app.artwork
+  pk: 3
+  fields:
+    name: "Bauhaus Building"
+    material: "Concrete and glass"
+    creator: 1

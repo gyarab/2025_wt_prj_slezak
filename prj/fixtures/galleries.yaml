@@ -1,1 +1,14 @@
-[]
+- model: app.gallery
+  pk: 1
+  fields:
+    name: "Bauhaus Dessau"
+
+- model: app.gallery
+  pk: 2
+  fields:
+    name: "Museum of Modern Art"
+
+- model: app.gallery
+  pk: 3
+  fields:
+    name: "Tate Modern"

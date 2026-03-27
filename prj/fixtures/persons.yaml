@@ -1,1 +1,26 @@
-[{"model": "app.person", "pk": 1, "fields": {"name": "Marcel Brauer", "birth_year": 1902, "death_year": 1981, "job": 5, "teacher_workshop": 1}}]
+- model: app.person
+  pk: 1
+  fields:
+    name: "Walter Gropius"
+    birth_year: 1883
+    death_year: 1969
+    job: 1
+    teacher_workshop: 3
+
+- model: app.person
+  pk: 2
+  fields:
+    name: "Paul Klee"
+    birth_year: 1879
+    death_year: 1940
+    job: 2
+    teacher_workshop: 2
+
+- model: app.person
+  pk: 3
+  fields:
+    name: "Marcel Breuer"
+    birth_year: 1902
+    death_year: 1981
+    job: 3
+    teacher_workshop: 1
