@@ -1,14 +1,19 @@
 from django.contrib import admin
 from .models import Person, Job, Workshop
 
-@admin.register(Person)
-class PersonAdmin(admin.ModelAdmin):
-    pass
+@admin.register(Movie)
+class MovieAdmin(admin.ModelAdmin):
+    list_display = ['title', 'year']
+    search_fields = ['title']
 
-@admin.register(Job)
-class JobAdmin(admin.ModelAdmin):
-    pass
 
-@admin.register(Workshop)
-class WorkshopAdmin(admin.ModelAdmin):
-    pass
+@admin.register(Director)
+class DirectorAdmin(admin.ModelAdmin):
+    list_display = ['name', 'birth_year']
+    search_fields = ['name']
+
+
+@admin.register(Genre)
+class GenreAdmin(admin.ModelAdmin):
+    list_display = ['name']
+    search_fields = ['name']
