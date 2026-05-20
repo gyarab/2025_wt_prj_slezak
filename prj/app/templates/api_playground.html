@@ -1,39 +1,63 @@
-<html>
 {% extends "base.html" %}
 {% load static %}
-{% block content %}
-<h1 class="page-title">API Playground</h1>
 
-<p class="muted">Tady můžeš testovat API koncové body.</p>
+{% block content %}
+
+<h1 class="page-title">Gallery API Playground</h1>
+
+<p class="muted">
+    Testování API endpointů pro Artwork objekty.
+</p>
 
 <div class="api-test">
-    <h2>Vyzskoušej si Movie GET</h2>
-    <input type="number" id="movieIdInput" placeholder="Zadejte ID filmu">
-    <button id="fetchMovieButton" onclick="fetchMovie()">Načíst film</button>
-    <button id="resetButton" onclick="resetOutput()">Vyčistit</button>
-    <pre id="movieResponse" class="response"></pre>
+
+    <h2>GET Artwork Detail</h2>
+
+    <input
+        type="number"
+        id="artworkIdInput"
+        placeholder="Zadejte ID artworku"
+    >
+
+    <button onclick="fetchArtwork()">
+        Načíst Artwork
+    </button>
+
+    <button onclick="resetOutput()">
+        Vyčistit
+    </button>
+
+    <pre id="apiResponse" class="response"></pre>
+
 </div>
 
 <script>
+
     function resetOutput() {
-        document.getElementById('movieResponse').textContent = '';
+        document.getElementById("apiResponse").textContent = "";
     }
 
-    function fetchMovie() {
-        const movieId = document.getElementById('movieIdInput').value;
-        fetch(`/api/movie/${movieId}`)
+    function fetchArtwork() {
+
+        const artworkId =
+            document.getElementById("artworkIdInput").value;
+
+        fetch(`/api/artwork/${artworkId}`)
             .then(response => response.json())
             .then(data => {
-                document.getElementById('movieResponse').textContent = JSON.stringify(data, null, 2);
+
+                document.getElementById("apiResponse").textContent =
+                    JSON.stringify(data, null, 2);
+
             })
             .catch(error => {
-                document.getElementById('movieResponse').textContent = 'Error: ' + error;
+
+                document.getElementById("apiResponse").textContent =
+                    "Error: " + error;
+
             });
-        console.log("Fetch called");
     }
-    console.log("API Playground loaded");
+
 </script>
 
 {% endblock %}
-
-</html>
