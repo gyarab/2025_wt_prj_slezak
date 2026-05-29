@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import Person, Artwork, Gallery, Job, Workshop
+from .api import api
 
 @admin.register(Person)
 class PersonAdmin(admin.ModelAdmin):
