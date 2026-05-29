@@ -1,9 +1,12 @@
 <template>
-  <div>
-    <h1>Hello</h1>
-  </div>
+    <header>
+        <RouterLink to="/">
+            <h1>Bauhaus (vue)</h1>
+        </RouterLink>
+    </header>
+    <RouterView />
 </template>
 
 <script setup>
-import {RouterLink, RouterView} from 'vue-router'
+import { RouterLink, RouterView } from 'vue-router'
 </script>
