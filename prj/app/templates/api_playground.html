@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<h1 class="page-title">Gallery API Playground</h1>
+
+<p class="muted">
+    Testování API endpointů pro Artwork objekty.
+</p>
+
+<div class="api-test">
+
+    <h2>GET Artwork Detail</h2>
+
+    <input
+        type="number"
+        id="artworkIdInput"
+        placeholder="Zadejte ID artworku"
+    >
+
+    <button onclick="fetchArtwork()">
+        Načíst Artwork
+    </button>
+
+    <button onclick="resetOutput()">
+        Vyčistit
+    </button>
+
+    <pre id="apiResponse" class="response"></pre>
+
+</div>
+
+<script>
+
+    function resetOutput() {
+        document.getElementById("apiResponse").textContent = "";
+    }
+
+    function fetchArtwork() {
+
+        const artworkId =
+            document.getElementById("artworkIdInput").value;
+
+        fetch(`/api/artwork/${artworkId}`)
+            .then(response => response.json())
+            .then(data => {
+
+                document.getElementById("apiResponse").textContent =
+                    JSON.stringify(data, null, 2);
+
+            })
+            .catch(error => {
+
+                document.getElementById("apiResponse").textContent =
+                    "Error: " + error;
+
+            });
+    }
+
+</script>
+
+{% endblock %}
